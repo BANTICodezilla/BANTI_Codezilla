@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+        }
+        #inp {
+            padding: 10px;
+            font-size: 1em;
+            margin: 10px 0;
+            width: 200px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            margin: 10px 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        #Submit {
+            background-color: #4CAF50;
+            color: white;
+        }
+        #resBtn {
+            background-color: #f44336;
+            color: white;
+            display: none;
+        }
+        #msg {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        #Attempt {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Number Guessing Game</h1>
+    <p id="Attempt">Attempts: 0</p>
+    <input type="text" id="inp" placeholder="Enter a number">
+    <button id="Submit">Submit</button>
+    <button id="resBtn">Restart</button>
+    <p id="msg"></p>
+
+    <script src="Pgame.js"></script>
+</body>
+</html>
